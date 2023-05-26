@@ -22,6 +22,8 @@ public class SrovnejSpojS {
                 } else if (i.dalsi.hodnota < vstup){
                     p.dalsi = i.dalsi;
                     i.dalsi = p;
+                } else {
+                    //posun se dal
                 }
             }
         }
